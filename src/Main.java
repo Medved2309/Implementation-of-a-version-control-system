@@ -3,7 +3,9 @@ public class Main {
 
         int[] Sales = {1, 2, 4, 100, 10, 20, 30};
         SalesManager salesManager = new SalesManager(Sales);
-        System.out.println(salesManager.max());
+        System.out.println(salesManager.max()); // Максимум
+        System.out.println(salesManager.min()); // Минимальное
+
 
     }
 }
