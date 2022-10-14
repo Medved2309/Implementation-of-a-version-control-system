@@ -5,6 +5,8 @@ public class Main {
         SalesManager salesManager = new SalesManager(Sales);
         System.out.println(salesManager.max()); // Максимум
         System.out.println(salesManager.min()); // Минимальное
+        System.out.println(salesManager.stat()); // стат
+
 
 
     }
