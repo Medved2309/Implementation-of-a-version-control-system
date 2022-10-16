@@ -14,6 +14,7 @@ public class SalesManager {
         }
         return max;
     }
+
     public int min() {
         int min = max();
         for (int sale : sales) {
@@ -23,7 +24,6 @@ public class SalesManager {
         }
         return min;
     }
-
 
     public int stat() {
         int stat = 0;
@@ -39,12 +39,10 @@ public class SalesManager {
                 stat += sale;
                 i++;
             }
-    }
+        }
         return (stat / i);
     }
-
-
-    }
+}
 
 
 
